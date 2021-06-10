@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+body {
+    background-image: url("./images/mintbean-dome.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#top_menu {
+    display: flex;
+    background-color: #221727;
+    justify-content: space-between;
+    padding: 1% 1%;
+}
+
+#top_menu span {
+    padding-left: 10%;
+}
+
+#top_menu nav {
+    margin: auto 0;
+    color: #F1FFF6;
+    padding-right: 12px;
+}
+
+#main_container {
+    display: flex;
+    flex-direction: column;
+    border: red solid 3px;
+    margin: 10% 25%;
+    background-color: rgba(34,23,39, 0.8)
+}
+
+#text_container {
+    margin: 12px 24px;
+    justify-content: space-evenly;
+}
+
+#text_container button {
+    background-color: #24E5A3;
+    color: #221727;
+    padding: 1em 1em;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+}
+
+#main_line {
+    text-transform: uppercase;
+    color: #F1FFF6;
+}
+
+#bulk_text {
+    color: #F1FFF6;
+    display: block;
+}
