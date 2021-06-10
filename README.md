@@ -1,25 +1,41 @@
 <img src="./Challenge01/images/learnabit-logo.png" />
 
-Welcome to Learn-a-bit
+## What I learned. . .
 
-[Learn-a-bit Guidebook](https://sites.google.com/mintbean.io/mintbean-learn-a-bit-guide/about-learn-a-bit)
+In this *Learn-a-Bit*, I demonstrated my ability to create a UI with **HTML** & **CSS**.
 
----
+In the following table, I will comment on some considerations with my code choices:
 
-## Introduction
 
-As the name says, the purpose of Learn-a-bit is about learning one bit of code at a time.
-In these events, you will build small projects to educate yourself on the fundamentals of web development using HTML, CSS, and JavaScript.
-These events are relaxed and non-competitive, but are still challenging enough to push you to use all your resources and knowledge to solve each problem.
+| Line in Code | Comments |
+| ----------- | ----------- |
+| Line 14, 34, 36, etc in `index.html` | [A](#id-1) Comments in Code |
+| Line 17-21, 59 in `index.html` | [B](#id-2) Picking HTML tags |
+| Line 9-12 in `styles.css` | [C](#id-3) Whitespace Issue |
+| Line 65 in `styles.css` | [D](#id-4) Adding color to SVGs |
+| Throughout `styles.css` | [E](#id-5) `em` v. `px` |
 
-## How does it benefit you?
 
-Learn-a-bit will teach you the fundamentals through a hands-on approach. You will gain versatility in the basic tools of the trade and learn the best practices for writing semantic HTML and well-designed CSS. You will improve your design skills and start to create attractive and attention-grabbing portfolio pieces while also gaining confidence to tackle any of the harder hackathons.
 
----
+<div id='id-1'/> 
 
-## Learn-a-bit starter files
+- #1: Comments are an effective way of communicating what you intend with your<br>
+code & a useful way to partition your structures & stylings for easier reading.
 
-Here you will find starter files for every Learna-a-bit challenge.
+<div id='id-2'/>
 
-[Challenge #1 - Header](./Challenge01)
+- #2: Choosing your HTML tags can be both an exercise in ensuring the tag describes<br>
+the reason you are using it and in taking advantage of its default inline or block behavior.<br> There is often a concern for overusing `<div>` tags as well.
+
+<div id='id-3'/>
+
+- #3: It can be a common occurrence that you'll need to clear the margins/padding of the<br> `body` to avoid the whitespace along the edges.
+
+<div id='id-4'/>
+
+- #4: A workaround when coloring `.svg` files is to use the `filter{}` property.<br> Credit to Barrett Sonntag for this easy-to-use hex-to-filter generator!<br> [Find it here!](https://codepen.io/sosuke/pen/Pjoqqp)
+
+<div id='id-5'/>
+
+- #5: I am not the best in describing the contention between using `em` vs. `px`,<br>
+but I know that `em` is a relative measurement that is affected by the parent element <br> whereas `px` is unaffected by elements around it.
