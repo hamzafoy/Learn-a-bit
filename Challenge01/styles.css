@@ -9,8 +9,8 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 100vh;
 }
+
 
 /*-- IMAGE IN BACKGROUND --*/
 
@@ -21,7 +21,8 @@ body {
     background-size: cover;
 }
 
-/*-- NAVIGATION BAR STYLES --*/
+
+/*-- NAVIGATION BAR STYLES FOR MOBILE --*/
 
 #top_menu {
     display: flex;
@@ -64,7 +65,8 @@ body {
     filter: invert(79%) sepia(87%) saturate(424%) hue-rotate(87deg) brightness(90%) contrast(100%);
 }
 
-/*-- MAIN PAGE TEXT STYLES --*/
+
+/*-- MAIN PAGE TEXT STYLES FOR MOBILE --*/
 
 #main_container {
     display: flex;
@@ -114,7 +116,8 @@ body {
     padding: .65em 0;
 }
 
-/*-- FONT FAMILIES --*/
+
+/*-- MEDIA QUERY + STYLES FOR WIDE VIEWPORTS (LAPTOP, MONITOR SCREENS) --*/
 
 @media (min-width: 860px) {
 
@@ -131,6 +134,9 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+
+    /*-- NAVIGATION BAR STYLES --*/
     
     #top_menu {
         display: flex;
@@ -169,6 +175,9 @@ body {
     #hamburger {
         display: none;
     }
+
+
+    /*-- MAIN PAGE TEXT STYLES --*/
     
     #main_container {
         display: flex;
