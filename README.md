@@ -39,3 +39,23 @@ the reason you are using it and in taking advantage of its default inline or blo
 
 - #5: I am not the best in describing the contention between using `em` vs. `px`,<br>
 but I know that `em` is a relative measurement that is affected by the parent element <br> whereas `px` is unaffected by elements around it.
+
+<br>
+<br>
+
+## Changes based on Feedback from Emsad Ahmetasevic
+
+### HTML
+   - Should use semantic tags &#10004;
+   - Should use less `<div>` &#10004;
+   - Should use <link> to import fonts &#10004;
+
+### CSS
+   - Reset - Needs improvement &#10004;
+   - Should use class instead id &#10004;
+   - Should not put bg image to body :: *Noted in codebase*
+   - Should not target html tags &#10004;
+   - Should use declaration order :: *Noted in codebase*
+
+### Other
+   - Folder structure - Should use separated folders for files &#10004;
