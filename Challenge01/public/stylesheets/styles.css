@@ -1,24 +1,13 @@
-/*-- FONT FAMILIES --*/
-
-@font-face {font-family: "Rubik-Regular"; src: url("./fonts/Rubik-Regular.ttf")}
-@font-face {font-family: "Rubik-Light"; src: url("./fonts/Rubik-Light.ttf")}
-@font-face {font-family: "Viga-Regular"; src: url("./fonts/Viga-Regular.ttf")}
-
-/*-- CLEARING WHITESPACE EDGES --*/
-
-body, html {
-    margin: 0;
-    padding: 0;
-}
-
+/*-- 
+Important take-aways from feedback not changed in the current code:
+1. Remember `declaration order` when writing out CSS: [sass, position, display, clipping, animation, box-model (outside -> inward), background, typography, then list pseudo-classes & elements]
+2. Don't put background image in the `body` tag.
+--*/
 
 /*-- IMAGE IN BACKGROUND --*/
 
 body {
-    background-image: url("./images/mintbean-dome.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("../images/mintbean-dome.png");
 }
 
 
@@ -31,15 +20,15 @@ body {
     padding: 2.5% 2.5%;
 }
 
-#top_menu span {
+.logo {
     padding-left: 2%;
 }
 
-#top_menu nav {
+.nav-bar {
     margin: auto 0;
     color: #F1FFF6;
     padding-right: 10%;
-    font-family: Rubik-Regular;
+    font-family: 'Rubik', sans-serif;
     font-weight: 100;
     font-size: 21px;
     display: none;
@@ -50,7 +39,7 @@ body {
     color: #221727;
     border-radius: 10px;
     border: none;
-    font-family: Rubik-Regular;
+    font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
     margin-left: 10px;
     font-weight: 500;
@@ -74,8 +63,7 @@ body {
     border: #24e5a3 solid 3px;
     border-radius: 10px;
     width: 90vw;
-    margin: 0 auto;
-    margin-top: 10vh;
+    margin: 5vh auto;
     background-color: rgba(34,23,39, 0.8)
 }
 
@@ -92,7 +80,7 @@ body {
     border-radius: 10px;
     box-sizing: border-box;
     border: none;
-    font-family: Rubik-Regular;
+    font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
     font-weight: 500;
     width: 100%;
@@ -101,18 +89,18 @@ body {
 #main_line {
     text-transform: uppercase;
     color: #F1FFF6;
-    font-family: Viga-Regular;
+    font-family: 'Viga', sans-serif;
     font-weight: 100;
-    font-size: 42px;
+    font-size: 28px;
 }
 
 #bulk_text {
     color: #F1FFF6;
     display: block;
-    font-family: Rubik-Light;
+    font-family: 'Rubik', sans-serif;
     line-height: 1.5em;
     letter-spacing: 0.01em;
-    font-size: 1.25em;
+    font-size: 1em;
     padding: .65em 0;
 }
 
@@ -129,7 +117,7 @@ body {
     }
     
     body {
-        background-image: url("./images/mintbean-dome.png");
+        background-image: url("../images/mintbean-dome.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -145,15 +133,15 @@ body {
         padding: 1% 1%;
     }
     
-    #top_menu span {
+    .logo {
         padding-left: 10%;
     }
     
-    #top_menu nav {
+    .nav-bar {
         margin: auto 0;
         color: #F1FFF6;
         padding-right: 10%;
-        font-family: Rubik-Regular;
+        font-family: 'Rubik', sans-serif;
         font-weight: 100;
         font-size: 21px;
         display: initial;
@@ -164,7 +152,7 @@ body {
         color: #221727;
         border-radius: 10px;
         border: none;
-        font-family: Rubik-Regular;
+        font-family: 'Rubik', sans-serif;
         text-transform: uppercase;
         margin-left: 10px;
         font-weight: 500;
@@ -187,7 +175,7 @@ body {
         width: 40vw;
         position: absolute;
         left: 150px;
-        top: 200px;
+        top: 150px;
         background-color: rgba(34,23,39, 0.8);
         margin-top: 0;
     }
@@ -206,7 +194,7 @@ body {
         border-radius: 10px;
         box-sizing: border-box;
         border: none;
-        font-family: Rubik-Regular;
+        font-family: 'Rubik', sans-serif;
         text-transform: uppercase;
         font-weight: 500;
     }
@@ -214,15 +202,16 @@ body {
     #main_line {
         text-transform: uppercase;
         color: #F1FFF6;
-        font-family: Viga-Regular;
+        font-family: 'Viga', sans-serif;
         font-weight: 100;
-        font-size: 30px;
+        font-size: 28px;
     }
     
     #bulk_text {
         color: #F1FFF6;
         display: block;
-        font-family: Rubik-Light;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 100;
         line-height: 1.5em;
         letter-spacing: 0.01em;
         font-size: 1.25em;

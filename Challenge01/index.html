@@ -6,21 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta content="Ross 'Hamza' Foy" name="author">
-    <link href="styles.css" rel="stylesheet">
+    <link href="./public/stylesheets/styles.css" rel="stylesheet">
+    <link href="./public/stylesheets/reset.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
     <title>Mintbean Learn-a-bit Challenge 01</title>
   </head>
 
   <body>
     <!-- This BEGINS the navigation bar -->
-    <div id="top_menu">
+    <header id="top_menu">
 
-      <span>
+      <span class="logo">
 
-        <img src="./images/learnabit-logo.png"/>
+        <img src="./public/images/learnabit-logo.png"/>
 
       </span>
 
-      <nav>
+      <nav class="nav-bar">
         Intro | About | Team | Contact
         <button id="join_button">
           Join
@@ -28,15 +35,17 @@
 
       </nav>
 
-      <img src="images/hamburger.svg" id="hamburger"/>
+      <img src="./public/images/hamburger.svg" id="hamburger"/>
 
-    </div>
+    </header>
     <!-- This COMPLETES the navigation bar -->
+
+    <div id="bg_container">
     
     <!-- This BEGINS the text container that will be slight off-center on long-width viewports -->
-    <div id="main_container">
+    <section id="main_container">
 
-      <div id="text_container">
+      <article id="text_container">
 
         <h1 id="main_line">
           Level up bit by bit with Learn-a-bit
@@ -58,10 +67,10 @@
         
         <button>Join a learn-a-ton</button>
 
-      </div>
+      </article>
 
-    </div>
+    </section>
     <!-- This COMPLETES the text container -->
-
+    </div>
   </body>
 </html>
