@@ -1,5 +1,3 @@
-<img src="./Challenge01/images/learnabit-logo.png" />
-
 ## What I learned. . .
 
 In this *Learn-a-Bit*, I demonstrated my ability to create a UI with **HTML** & **CSS**.
