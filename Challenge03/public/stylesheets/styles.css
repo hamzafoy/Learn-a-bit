@@ -14,6 +14,7 @@ body {
 .card-container {
     display: flex;
     flex-direction: column;
+    position: relative;
     overflow: hidden;
     margin: 0 auto;
     margin-bottom: 2em;
@@ -23,8 +24,35 @@ body {
     background-color: rgba(34,23,39, 0.8)
 }
 
+.inner-container {
+    margin: 1em 1em;
+}
+
+.name-text {
+    font-size: 1.75em;
+    font-family: 'Viga', sans-serif;
+    letter-spacing: 0.055em;
+    color: #5EF4D6;
+    text-align: center;
+}
+
+.title-text {
+    font-size: 0.65em;
+    font-family: 'Rubik', 'sans-serif';
+    color: #24e5a3;
+    text-align: center;
+    filter: blur(0.5px);
+}
+
 .body-text {
-    color: white;
+    margin-top: 33px;
+    font-size: 0.95em;
+    line-height: 1.5em;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 0.01em;
+    color: #F1FFF6;
+    text-align: center;
+    filter: blur(0.5px);
 }
 
 @media (min-width: 860px) {
