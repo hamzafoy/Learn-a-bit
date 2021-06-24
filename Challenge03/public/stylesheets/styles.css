@@ -2,6 +2,11 @@ body {
     background-color: #4143B1;
 }
 
+#outer-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .main-title {
     padding: 1.15em 0;
     font-family: 'Rubik', sans-serif;
@@ -18,7 +23,7 @@ body {
     margin-bottom: 2em;
     border: #24e5a3 solid 3px;
     border-radius: 10px;
-    width: 90vw;
+    width: 80vw;
     background-color: rgba(34,23,39, 0.8)
 }
 
@@ -60,7 +65,7 @@ body {
 }
 
 .body-text {
-    margin-top: 33px;
+    margin: 33px 0;
     font-size: 0.95em;
     line-height: 1.5em;
     font-family: 'Rubik', sans-serif;
@@ -68,7 +73,26 @@ body {
     letter-spacing: 0.01em;
     color: #F1FFF6;
     text-align: center;
-    filter: blur(0.5px);
+    filter: blur(0.35px);
+}
+
+.links-assorted {
+    margin-bottom: 2vh;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#icon {
+    border: red solid 2px;
+    padding: 3px 3px;
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+    filter: invert(71%) sepia(91%) saturate(240%) hue-rotate(113deg) brightness(96%) contrast(105%);
 }
 
 @media (min-width: 860px) {
