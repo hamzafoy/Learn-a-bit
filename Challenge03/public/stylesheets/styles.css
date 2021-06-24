@@ -43,6 +43,38 @@ body {
     background-size: cover;
 }
 
+.foto-container-2 {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: -75px;
+    top: -100px;
+    z-index: 3;
+    background-color: black;
+    border: #24e5a3 solid 3px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background-image: url('../images/i_2.jpeg');
+    background-size: cover;
+}
+
+.foto-container-3 {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: -75px;
+    top: -100px;
+    z-index: 3;
+    background-color: black;
+    border: #24e5a3 solid 3px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background-image: url('../images/i_3.jpg');
+    background-size: cover;
+}
+
 .inner-container {
     margin: .5em 1em;
 }
